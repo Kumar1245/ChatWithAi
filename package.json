@@ -1,0 +1,72 @@
+{
+  "name": "My-Passion-Ai",
+  "homepage": "/",
+  "version": "1.0.1",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^41.2.1",
+    "@ckeditor/ckeditor5-react": "^6.2.0",
+    "@react-google-maps/api": "^2.13.1",
+    "@reduxjs/toolkit": "^2.3.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react-paginate": "^7.1.4",
+    "apexcharts": "^3.37.3",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-switch-button-react": "^1.2.0",
+    "crypto-js": "^4.2.0",
+    "express": "^4.17.3",
+    "formik": "^2.4.6",
+    "iso-639-1": "^3.1.3",
+    "moment": "^2.30.1",
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "react": "^17.0.2",
+    "react-apexcharts": "^1.4.0",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-accordion": "^1.0.0",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^14.3.5",
+    "react-flags-select": "^2.2.3",
+    "react-otp-input": "^3.1.1",
+    "react-paginate": "^8.2.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-redux": "^8.1.3",
+    "react-responsive-pagination": "^2.9.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.28.1",
+    "react-spinners": "^0.14.1",
+    "react-tabs": "^3.2.3",
+    "react-toastify": "^9.1.3",
+    "react-transition-group": "^4.4.2",
+    "redux-saga": "^1.2.3",
+    "sass": "^1.45.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^7.4.1",
+    "web-vitals": "^2.1.2",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+table.table {
+  th,
+  td {
+    padding: 15px 15px;
+    font-size: 11px;
+    line-height: 20px;
+    max-width: 200px;
+    // min-width: 120px;
+    color: #192a3e;
+    vertical-align: middle;
+  }
+  thead {
+    border: 1px solid #eff0f4;
+    th {
+      font-weight: 600;
+      // color: #A8A8BD !important;
+      background-color: #f7f8fa;
+      color: #505470;
+      white-space: nowrap;
+      padding: 13px 15px;
+    }
+  }
+  tbody {
+    td {
+      padding: 20px 15px;
+      // font-weight: 500;
+      // border: 0;
+    }
+  }
+}

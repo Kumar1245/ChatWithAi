@@ -1,0 +1,23 @@
+.FeaturedCardWrpper {
+  font-family: "Nunito Sans", sans-serif;
+  > div:first-child {
+    .cardCstm {
+      background-color: #c8e6f1;
+    }
+  }
+  > div:nth-child(2) {
+    .cardCstm {
+      background-color: #eedbf1;
+    }
+  }
+  > div:nth-child(3) {
+    .cardCstm {
+      background-color: #d9cbf3;
+    }
+  }
+  > div:nth-child(4) {
+    .cardCstm {
+      background-color: #cef4dd;
+    }
+  }
+}

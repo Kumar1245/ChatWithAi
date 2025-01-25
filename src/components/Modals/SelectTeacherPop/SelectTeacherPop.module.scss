@@ -1,0 +1,19 @@
+.SelectTeacherPop {
+  .modalBody {
+    .radioListCard {
+      font-family: "Nunito Sans";
+      input:checked + .cardCstm {
+        background-color: #5392a9 !important;
+        * {
+          color: #fff;
+        }
+      }
+      .cardCstm {
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04),
+          0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+        border-radius: 15px;
+        width: 282px;
+      }
+    }
+  }
+}

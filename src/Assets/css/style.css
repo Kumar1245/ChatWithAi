@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.form-control {
+  font-size: 13px;
+  height: 45px;
+  background-color: #f5f6fa;
+  border: 1px solid #d5d5d5;
+}
+a {
+  text-decoration: none;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.navbar-toggler:focus {
+  box-shadow: unset !important;
+}
+.fw-sbold {
+  font-weight: 600 !important;
+}
+.themeClr {
+  color: #008dff !important;
+}
+.dropdown .dropdown-toggle:after {
+  display: none;
+}
+.notLastBorder > *:not(:last-child) {
+  border-bottom: 1px solid #6e6e6e;
+}
+.cstmPagination .page-item.active .page-link {
+  background: #292727;
+  border-color: #5392a9;
+}
+input.form-check {
+  accent-color: #6c6b6b;
+}
+.form-check-input:focus {
+  box-shadow: unset;
+  border-color: #ddd;
+}
+input#custom-switch:checked {
+  background-color: #64b116;
+}
+.commonBtn {
+  background: #008dff;
+  border-color: #008dff;
+  height: 45px;
+  font-size: 14px;
+  min-width: 130px;
+}
+.commonBtn:hover {
+  background-color: #292727;
+  border-color: #008dff;
+}
+textarea {
+  resize: none;
+}
+.box {
+  background: #fbfbfb;
+  box-shadow: 1px 1px 3.8px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.form-control:focus {
+  box-shadow: unset !important;
+  border-color: #008dff !important;
+}
+input.file {
+  top: 0;
+  left: 0;
+  z-index: 9;
+  cursor: pointer;
+  opacity: 0;
+}
+.TableFilter .form-control {
+  font-size: 12px;
+  color: #008dff;
+  font-weight: 500;
+}
+.TableFilter .btn {
+  height: 35px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.commonBtn.GreyBtn {
+  background: #292727;
+  border-color: #008dff;
+}
+.iconWithText .icn.position-absolute {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.searchBox input {
+  height: 40px;
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+  min-width: 200px;
+  font-size: 12px;
+  color: #c4c4c4;
+  padding-right: 35px;
+}
+.tableFilter select.select.form-select {
+  height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 110px;
+  background-color: #f7f8fa;
+  border: 1px solid #eff0f4;
+  border-radius: 8px;
+  box-shadow: unset !important;
+}
+.searchBox input::placeholder {
+  color: #c4c4c4;
+}
+.gap-10 {
+  gap: 10px;
+}
+.otpWrp > div {
+  justify-content: space-between;
+  gap: 10px;
+}
+.otpWrp input {
+  width: 70px !important;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #a5c8f5;
+  font-size: 21px;
+  font-weight: 700;
+}
+.noLastBorder > *:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.react-tel-input .form-control {
+  width: 100%;
+  height: 45px;
+}
+.greenStatus {
+  color: #008dff;
+  background-color: #e9f9f4;
+}
+.redStatus {
+  background: #f9e9e9;
+  color: #c12424;
+}
+.yellowStatus {
+  background: #f9f3e9;
+  color: #c18224;
+}
+/* pills tab */
+.btnPillsTab .nav-link {
+  height: 60px;
+  font-weight: 500;
+  color: #008dff;
+}
+.main-loader {
+  margin: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  z-index: 99999;
+}
+
+.btnPillsTab .nav-link.active {
+  background: #292727;
+  border-radius: 5px !important;
+}
+/* pills tab */
+
+/* underline tab */
+.underlineTab a.nav-link {
+  color: #665c5c;
+}
+.underlineTab a.nav-link:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  border-radius: 5px;
+  background: #dc1919;
+  width: 100%;
+  transform: translateY(50%);
+  opacity: 0;
+}
+.underlineTab a.nav-link.active {
+  color: #000;
+}
+.underlineTab a.nav-link.active:after {
+  opacity: 1;
+}
+header .dropdown:has(.dropdown-menu.show) .position-fixed {
+  display: block !important;
+}
+/* switch */
+.themeSwitch {
+  background: #292727 !important;
+  border-color: #008dff !important;
+}
+.themeSwitch .switch-group .switch-on,
+.themeSwitch .switch-group .switch-off {
+  background: #292727 !important;
+  border-color: #008dff !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+.ck-editor__editable_inline {
+  min-height: 300px;
+}
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+/* css   */
